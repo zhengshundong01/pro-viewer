@@ -1,0 +1,39 @@
+.fd-app-header-container{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+  padding: 10px 0;
+  background: rgba(0,0,0,0.75);
+  transition: all 0.4s ease;
+  .fd-header-logo{
+    margin: 10px 15px;
+    float: left;
+    color: #fff;
+    font-weight: 700;
+  }
+  .fd-header-menu{
+    float: right;
+    .fd-menu-item{
+      padding: 10px 15px;
+      float: left;
+      >a{
+        color: #fff;
+        font-weight: 700;
+        &:visited{
+          color: #44b272;
+          text-decoration: none
+        }
+        &:hover{
+           color: #44b272;
+          text-decoration: none;
+         }
+      }
+    }
+  }
+}
+.container{
+  width: 80%;
+  margin: 0 auto;
+  padding:  0 15px;
+}
