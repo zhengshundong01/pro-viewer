@@ -33,7 +33,35 @@
   }
 }
 .container{
-  width: 80%;
-  margin: 0 auto;
-  padding:  0 15px;
+  width: 970px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  &:before{
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+  }
+  &:after{
+    clear: both;
+    content: " ";
+    box-sizing: border-box;
+    display: block;
+  }
+}
+.row{
+  margin-right: -15px;
+  margin-left: -15px;
+  &:before{
+    display: table;
+    content: " ";
+    box-sizing: border-box;
+  }
+  &:after{
+    clear: both;
+    content: " ";
+    box-sizing: border-box;
+    display: block;
+  }
 }
