@@ -4,7 +4,7 @@
             <div class="fd-app-hobby-content">
                 <h3>Let's work together!</h3>
                 <p>I am available for freelance projects.</p>
-                <div class="fd-hobby-btn">get quotes</div>
+                <btn  :text="'get quotes'"></btn>
             </div>
         </div>
     </div>

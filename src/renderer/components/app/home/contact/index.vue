@@ -28,7 +28,7 @@
                 </div>
                 <div class="row">
                     <div class="fd-app-contact-form-row3">
-                        <div class="fd-app-contact-send">send</div>
+                        <btn :text="'send'"></btn>
                     </div>
                 </div>
             </div>
